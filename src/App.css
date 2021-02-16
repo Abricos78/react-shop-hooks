@@ -61,6 +61,7 @@ main h1 {
 }
 
 .shopList {
+  margin: 1rem 6rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
@@ -77,4 +78,20 @@ main h1 {
 
 .card-content {
   flex-grow: 1;
+}
+
+.basket {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  z-index: 5;
+  padding: 1rem;
+}
+
+@media (min-width: 767px) {
+  .basket {
+    top: 5rem;
+    bottom: unset;
+  }
 }
