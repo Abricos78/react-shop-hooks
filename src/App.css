@@ -61,7 +61,7 @@ main h1 {
 }
 
 .shopList {
-  margin: 1rem 6rem;
+  margin: 1rem 11rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
@@ -115,21 +115,39 @@ main h1 {
   cursor: pointer
 }
 
-.basket-count {
+.basket-count-changer {
   cursor: pointer;
   vertical-align: middle;
   color: #26a69a;
   margin-left: 5px;
 }
 
+.basket-btn-pay {
+  color: #26a69a;
+  background-color: white;
+  border: 0px solid;
+  padding: 3px 5px;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
 ul {
   text-align: left;
 }
 
+#toast-container {
+  animation: fade-in .5s;
+  top: 1.8rem ;
+}
+
 @media (min-width: 767px) {
   .basket {
-    top: 7rem;
+    top: 5rem;
     bottom: unset;
+  }
+  #toast-container {
+    top: -4rem;
   }
 }
 
@@ -142,5 +160,16 @@ ul {
   to {
     top: 50%;
     opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
   }
 }
