@@ -88,6 +88,7 @@ main h1 {
   z-index: 5;
   padding: 10px 10px 5px 10px;
   border-radius: 5px;
+  
 }
 
 .basket-list {
@@ -99,6 +100,7 @@ main h1 {
   background-color: white;
   width: 50rem;
   max-width: 95%;
+  animation: show 0.5s;
 }
 
 .basket-close {
@@ -113,6 +115,13 @@ main h1 {
   cursor: pointer
 }
 
+.basket-count {
+  cursor: pointer;
+  vertical-align: middle;
+  color: #26a69a;
+  margin-left: 5px;
+}
+
 ul {
   text-align: left;
 }
@@ -121,5 +130,17 @@ ul {
   .basket {
     top: 7rem;
     bottom: unset;
+  }
+}
+
+@keyframes show {
+  from {
+    top: 70%;
+    opacity: 0;
+  }
+
+  to {
+    top: 50%;
+    opacity: 1;
   }
 }
