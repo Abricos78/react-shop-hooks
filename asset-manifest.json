@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-shop-hooks/static/css/main.7481dbeb.chunk.css",
+    "main.js": "/react-shop-hooks/static/js/main.4339ef6a.chunk.js",
+    "main.js.map": "/react-shop-hooks/static/js/main.4339ef6a.chunk.js.map",
+    "runtime-main.js": "/react-shop-hooks/static/js/runtime-main.fb7535b5.js",
+    "runtime-main.js.map": "/react-shop-hooks/static/js/runtime-main.fb7535b5.js.map",
+    "static/js/2.6f8e4090.chunk.js": "/react-shop-hooks/static/js/2.6f8e4090.chunk.js",
+    "static/js/2.6f8e4090.chunk.js.map": "/react-shop-hooks/static/js/2.6f8e4090.chunk.js.map",
+    "index.html": "/react-shop-hooks/index.html",
+    "static/css/main.7481dbeb.chunk.css.map": "/react-shop-hooks/static/css/main.7481dbeb.chunk.css.map",
+    "static/js/2.6f8e4090.chunk.js.LICENSE.txt": "/react-shop-hooks/static/js/2.6f8e4090.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb7535b5.js",
+    "static/js/2.6f8e4090.chunk.js",
+    "static/css/main.7481dbeb.chunk.css",
+    "static/js/main.4339ef6a.chunk.js"
+  ]
+}
